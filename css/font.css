@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'AmaticSC-Bold';
+  src: url('../font/AmaticSC-Bold.eot');
+  src: url('../font/AmaticSC-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../font/AmaticSC-Bold.svg#AmaticSC-Bold') format('svg'),
+       url('../font/AmaticSC-Bold.ttf') format('truetype'),
+       url('../font/AmaticSC-Bold.woff') format('woff'),
+       url('../font/AmaticSC-Bold.woff2') format('woff2');
+  font-weight: normal; font-style: normal;}
+@font-face {
+  font-family: 'AmaticSC-Regular';
+  src: url('../font/AmaticSC-Regular.eot');
+  src: url('../font/AmaticSC-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/AmaticSC-Regular.svg#AmaticSC-Regular') format('svg'),
+       url('../font/AmaticSC-Regular.ttf') format('truetype'),
+       url('../font/AmaticSC-Regular.woff') format('woff'),
+       url('../font/AmaticSC-Regular.woff2') format('woff2');
+  font-weight: normal; font-style: normal;}
+@font-face {
+  font-family: 'DoHyeon-Regular';
+  src: url('../font/DoHyeon-Regular.eot');
+  src: url('../font/DoHyeon-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/DoHyeon-Regular.svg#DoHyeon-Regular') format('svg'),
+       url('../font/DoHyeon-Regular.ttf') format('truetype'),
+       url('../font/DoHyeon-Regular.woff') format('woff'),
+       url('../font/DoHyeon-Regular.woff2') format('woff2');
+  font-weight: normal; font-style: normal;}
+  @font-face {
+    font-family: 'NanumBarunpen';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff');
+    font-weight: normal; font-style: normal; }
