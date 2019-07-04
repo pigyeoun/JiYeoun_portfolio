@@ -53,6 +53,7 @@ $(document).ready(function() {
     $(".con1_2").click(function() {$(".con1_ps2").fadeIn(300);});
     $(".con1_3").click(function() {$(".con1_ps3").fadeIn(300);});
     $(".con1_4").click(function() {$(".con1_ps4").fadeIn(300);});
+    $(".con1_5").click(function() {$(".con1_ps5").fadeIn(300);});
 
     $(".con2_1").click(function() {$(".con2_ai1").fadeIn(300);});
 
