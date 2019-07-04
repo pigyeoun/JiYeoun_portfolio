@@ -114,7 +114,6 @@ header ul li p{margin-top:17px; font-size:30px;}
 .con3 .con3_line1{width:30%; height:100%; float:left; overflow:hidden; cursor:pointer; border:1px solid #000;
   background-color:#ffcccc; margin-right:2.5%; margin-top:10px;}
 .con3 .con3_line1 img{width:100%; height:100%;}
-.con3 .new_window_text_wrap .new_window_sub_title{margin-top:523px;}
 .con3 .con3_more{width:150px; height:55px; text-align:center; margin:0 auto; background-color:#333; cursor:pointer; overflow:hidden;
   position:relative; display:block; font-size:24px; font-family:"NanumBarunpen"; margin-top:80px; margin-bottom:40px;}
 .con3 .con3_more p{position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); transition:.5s;}
@@ -123,8 +122,8 @@ width:100%; height:100%; transition:.5s;}
 .con3 .con3_more:hover::before{transform:translateX(-100%);}
 .con3 .con3_more:hover p{color: #ff99cc;}
 
-.con3_animation1 section{width:100%; height:500px; background:#ff9999; box-sizing:border-box;
-  overflow:hidden; position:absolute; color:#99ff33; margin-top:20px;}
+.con3_animation1 section{width:100%; height:300px; background:#ff9999; box-sizing:border-box;
+  overflow:hidden; position:relative; color:#99ff33; margin-top:20px;}
 .con3_animation1 .wrapper{ width:50%; height:100%; background:#99ff33; overflow:hidden;
   color:#ff9999; position:absolute; top:0; left:0;}
 .con3_animation1 .sliding{ position:absolute; top:50%; white-space:nowrap; font-size: 12em;
@@ -174,6 +173,64 @@ width:100%; height:100%; transition:.5s;}
 .con3_animation3 ul li:nth-child(6){animation-delay:1.2s;}
 .con3_animation3 ul li:nth-child(7){animation-delay:1.4s;}
 .con3_animation3 ul li:nth-child(8){animation-delay:1.6s;}
+
+.con3_animation4 ul{width:100%; height:300px; display:flex; position: relative;}
+.con3_animation4 ul li{
+  list-style: none;
+  width:10%;
+  height:100%;
+  background: transparent;
+  box-shadow: 5px 0 5px rgba(0,0,0,.2);
+  animation: animate4 infinite linear 5s;}
+@keyframes animate4 {
+  0%{background:#ac30e5;}
+  20%{background:#ff00d2;}
+  40%{background:#309fe5;}
+  60%{background:#30e54e;}
+  80%{background:#e5e330;}
+  100%{background:#ac30e5;}}
+.con3_animation4 ul li:nth-child(1){animation-delay:.2s; z-index:10;}
+.con3_animation4 ul li:nth-child(2){animation-delay:.4s; z-index:9;}
+.con3_animation4 ul li:nth-child(3){animation-delay:.6s; z-index:8;}
+.con3_animation4 ul li:nth-child(4){animation-delay:.8s; z-index:7;}
+.con3_animation4 ul li:nth-child(5){animation-delay:1s; z-index:6;}
+.con3_animation4 ul li:nth-child(6){animation-delay:1.2s; z-index:5;}
+.con3_animation4 ul li:nth-child(7){animation-delay:1.4s; z-index:4;}
+.con3_animation4 ul li:nth-child(8){animation-delay:1.6s; z-index:3;}
+.con3_animation4 ul li:nth-child(9){animation-delay:1.8s; z-index:2;}
+.con3_animation4 ul li:nth-child(10){animation-delay:2s; z-index:1;}
+
+.con3_animation5 section{width:100%; height:300px; position:relative; background-color:#262626;}
+.con3_animation5 ul{position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);}
+.con3_animation5 ul li{margin:0 15px; display:inline-block;}
+.con3_animation5 ul li a{
+  width: 60px; height: 60px; position:relative; display:block; color: #666;
+  text-align: center; line-height: 60px; background: #333; border-radius: 50%;}
+.con3_animation5 ul li a:before{
+  width:100%; height:100%; position:absolute; top:0; left: 0;
+  content: ''; border-radius: 50%; background: #33ccff;
+  transition: .5s; transform: scale(.9); z-index: -1;}
+.con3_animation5 ul li a:hover::before{transform: scale(1.1); box-shadow: 0 0 15px #33ccff;}
+.con3_animation5 ul li a:hover{color:#33ccff; box-shadow: 0 0 5px #33ccff; text-shadow: 0 0 5px #33ccff;}
+
+.con3_animation6 .container{width:100%; height:400px ;display:flex; box-sizing:border-box;
+  position:relative; border:0; padding:0; overflow:hidden;}
+.con3_animation6 .container .box{width:20%; text-align: center; line-height:400px;
+  flex-grow:1; transition: 1s; cursor:pointer; margin:0; border:0; padding:0;}
+.con3_animation6 .container h3{margin:0; padding:0; line-height:400px; font-size: 20px;
+  background: rgba(0,0,0,.8); transition: .5s; text-align:}
+.con3_animation6 .container h3 span{width:100%; background: rgba(255,255,255,0); transition: 1s;
+  color: #fff; padding: 25px 20px; text-transform: uppercase; letter-spacing: 2px;}
+.con3_animation6 .container .box:hover h3 span{color: #262626; background: rgba(255,255,255,8);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);}
+.con3_animation6 .container .box:hover h3{background: rgba(0,0,0,0);}
+.con3_animation6 .container .box:hover{width:40%;}
+.con3_animation6 .container .box:nth-child(1){background:url("https://ifh.cc/g/6f5rQ.jpg"); background-size:cover; background-position:center;}
+.con3_animation6 .container .box:nth-child(2){background:url("https://ifh.cc/g/O7Nbx.jpg"); background-size:cover; background-position:center;}
+.con3_animation6 .container .box:nth-child(3){background:url("https://ifh.cc/g/1GRm3.jpg"); background-size:cover; background-position:center;}
+.con3_animation6 .container .box:nth-child(4){background:url("https://ifh.cc/g/zSCwK.jpg"); background-size:cover; background-position:center;}
+.con3_animation6 .container .box:nth-child(5){background:url("https://ifh.cc/g/AvOAb.jpg"); background-size:cover; background-position:center;}
+
 
 
 
