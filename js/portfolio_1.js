@@ -61,6 +61,9 @@ $(document).ready(function() {
     $(".con3_1").click(function() {$(".con3_animation1").fadeIn(300);});
     $(".con3_2").click(function() {$(".con3_animation2").fadeIn(300);});
     $(".con3_3").click(function() {$(".con3_animation3").fadeIn(300);});
+    $(".con3_4").click(function() {$(".con3_animation4").fadeIn(300);});
+    $(".con3_5").click(function() {$(".con3_animation5").fadeIn(300);});
+    $(".con3_6").click(function() {$(".con3_animation6").fadeIn(300);});
 
     //
 
