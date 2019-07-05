@@ -231,6 +231,61 @@ width:100%; height:100%; transition:.5s;}
 .con3_animation6 .container .box:nth-child(4){background:url("https://ifh.cc/g/zSCwK.jpg"); background-size:cover; background-position:center;}
 .con3_animation6 .container .box:nth-child(5){background:url("https://ifh.cc/g/AvOAb.jpg"); background-size:cover; background-position:center;}
 
+.con3_animation7 .con3_ani7_box{width:100%; height:400px; position:relative; background:#ff005c; margin-top:30px;}
+.con3_animation7 .loader{width:400px; height: 100px; transform:translate(-50%, -50%);
+  position:absolute; top:50%; left:50%; text-transform: uppercase; line-height: 100px;
+  text-align: center; color:#fff; font-size: 40px; letter-spacing: 15px;
+  font-family: sans-serif; overflow: hidden;}
+.con3_animation7 .loader span{position:absolute; background: #fff;}
+.con3_animation7 .loader span:nth-child(1){width:100%; height: 4px;
+  top:0; left: -100%; animation: animate7_1 2s linear infinite;}
+.con3_animation7 .loader span:nth-child(3){width:100%; height: 4px;
+  bottom: 0; right: -100%; animation: animate7_3 2s linear infinite;}
+.con3_animation7 .loader span:nth-child(2){width:4px; height: 100%;
+  right: 0; top: -100%; animation: animate7_2 2s linear infinite;}
+.con3_animation7 .loader span:nth-child(4){width:4px; height: 100%;
+  left: 0; bottom: -100%; animation: animate7_4 2s linear infinite;}
+@keyframes animate7_1 {
+  0%{left:-100%;} 20%{left:0;}
+  40%{left:100%;} 60%{left:100%;}
+  80%{left:100%;} 100%{left:100%;}}
+@keyframes animate7_2 {
+  0%{top:-100%;} 20%{top:-100%;}
+  40%{top:0;} 60%{top:100%;}
+  80%{top:100%;} 100%{top:100%;}}
+@keyframes animate7_3 {
+  0%{right:-100%;} 20%{right:-100%;}
+  40%{right:-100%;} 60%{right:0;}
+  80%{right:100%;} 100%{right:100%;}}
+@keyframes animate7_4 {
+  0%{bottom:-100%;} 20%{bottom:-100%;}
+  40%{bottom:-100%;} 60%{bottom:-100%;}
+  80%{bottom:0;} 100%{bottom:100%;}}
+
+.con3_animation8 section{width:100%; height:500px; position:relative; background:#262626; margin-top:30px;}
+.con3_animation8 ul{position:absolute; top:50%; left:50%; transform:translate(-50%, -50%) skewY(-8deg); display:flex;
+  background:#f00; box-shadow:0 0 0 10px #fff; overflow:hidden; margin:0; padding:0;}
+.con3_animation8 ul li{display:block; color:#fff; padding:0 10px; font-size:3em; font-weight:bold;
+  text-transform:uppercase; font-family:sans-serif; animation: animate8 2.5s linear infinite;}
+@keyframes animate8 {
+  0%{transform: translateY(-100px) rotateY(0deg);}
+  20%{transform: translateY(0px) rotateY(360deg);}
+  40%{transform: translateY(-10px) rotateY(360deg);}
+  50%{transform: translateY(0px) rotateY(360deg);}
+  50%{transform: translateY(0px) rotateY(360deg);}
+  60%{transform: translateY(-10px) rotateY(360deg);}
+  70%{transform: translateY(0px) rotateY(360deg);}
+  80%{transform: translateY(0px) rotateY(360deg);}
+  100%{transform: translateY(100px) rotateY(720deg);}}
+.con3_animation8 ul li:nth-child(1){animation-delay: .1s;}
+.con3_animation8 ul li:nth-child(2){animation-delay: .2s;}
+.con3_animation8 ul li:nth-child(3){animation-delay: .3s;}
+.con3_animation8 ul li:nth-child(4){animation-delay: .4s;}
+.con3_animation8 ul li:nth-child(5){animation-delay: .5s;}
+.con3_animation8 ul li:nth-child(6){animation-delay: .6s;}
+.con3_animation8 ul li:nth-child(7){animation-delay: .7s;}
+.con3_animation8 ul li:nth-child(8){animation-delay: .8s;}
+.con3_animation8 ul li:nth-child(9){animation-delay: .9s;}
 
 
 
