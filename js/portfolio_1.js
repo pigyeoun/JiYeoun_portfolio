@@ -57,6 +57,7 @@ $(document).ready(function() {
     $(".con1_2").click(function() {$(".con1_project2").fadeIn(300);});
 
     $(".con2_1").click(function() {$(".con2_copypage1").fadeIn(300);});
+    $(".con2_2").click(function() {$(".con2_copypage2").fadeIn(300);});
 
     $(".con3_1").click(function() {$(".con3_animation1").fadeIn(300);});
     $(".con3_2").click(function() {$(".con3_animation2").fadeIn(300);});
