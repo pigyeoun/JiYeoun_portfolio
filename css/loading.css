@@ -15,7 +15,7 @@
   background:#262626;
   transition:1s;}
 
-.page_loader.complete::before{left:-50%;}
+.page_loader.complete::before{left:-50%; opacity:0;}
 
 .page_loader::after{
   content:"";
@@ -25,7 +25,7 @@
   height:100%;
   background:#262626;
   transition:1s;}
-.page_loader.complete::after{right:-50%;}
+.page_loader.complete::after{right:-50%; opacity:0;}
 .complete{z-index:-1;}
 
 .complete ul{opacity: 0; visibility: hidden; pointer-events:none;}
