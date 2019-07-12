@@ -3,6 +3,7 @@ $(document).ready(function() {
   var lastScrollTop = 0;
   var delta = 5;
   var navbarHeight = $('header').outerHeight();
+
   $(window).scroll(function(event){
     didScroll = true;
   });
@@ -72,5 +73,11 @@ $(document).ready(function() {
 
     $(".top_bt_test").click(function() {
       $("html").stop().animate({scrollTop:0},500);
+    });
+
+    //
+
+    $(window).on("load",function(){
+      $(".page_loader").addClass("complete");
     });
 });
