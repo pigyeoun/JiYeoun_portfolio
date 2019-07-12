@@ -55,4 +55,10 @@ $(document).ready(function() {
     $(".top_bt_test").click(function() {
       $("html").stop().animate({scrollTop:0},500);
     });
+
+    //
+
+    $(window).on("load",function(){
+      $(".page_loader").addClass("complete");
+    });
 });
