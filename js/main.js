@@ -3,6 +3,8 @@ $(document).ready(function() {
   var lastScrollTop = 0;
   var delta = 3;
   var navbarHeight = $('header').outerHeight();
+
+
   $(window).scroll(function(event){
     didScroll = true;
   });
@@ -53,18 +55,6 @@ $(document).ready(function() {
 
     //
 
-    $(".new_window_close").click(function() {
-      $(".new_window").fadeOut(300);
-    });
-
-    $(".con1_1").click(function() {$(".con1_ps1").fadeIn(300);});
-    $(".con1_2").click(function() {$(".con1_ps2").fadeIn(300);});
-    $(".con1_3").click(function() {$(".con1_ps3").fadeIn(300);});
-
-    $(".con2_1").click(function() {$(".con2_ai1").fadeIn(300);});
-
-    //
-
     $(".top_bt_test").click(function() {
       $("html").stop().animate({scrollTop:0},500);
     });
@@ -74,4 +64,5 @@ $(document).ready(function() {
     $(window).on("load",function(){
       $(".page_loader").addClass("complete");
     });
+
 });
