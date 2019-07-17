@@ -82,6 +82,8 @@ header ul li p{margin-top:17px; font-size:30px;}
 .new_window_text_wrap .new_window_img{width:70%; margin:0 auto; padding-top:20px;}
 .new_window_text_wrap .new_window_img img{display:block; width:25%; float:left; cursor:pointer;}
 
+.hover_box:hover{cursor: url("../img/plus_cursor.png") 4 12, auto;}
+
 #contents .star{width:100%; height:auto; display:block; position:relative; padding:100px 0 0 0; text-align:center;}
 #contents .star i{font-size:50px; color:#3333ff;}
 
